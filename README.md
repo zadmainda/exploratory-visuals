@@ -35,7 +35,7 @@
 
 ## Summary of Findings
 
-> Most of the borrowers in this dataset have a C credit rating. The next credit rating with the most borrowers is D with a total of 5,153 people. From the visualization we can also see that the least amount of loans went to borrowers with a NC (No Credit) rating. Only 141 people with No Credit were given loans.
+Most of the borrowers in this dataset have a C credit rating. The next credit rating with the most borrowers is D with a total of 5,153 people. From the visualization we can also see that the least amount of loans went to borrowers with a NC (No Credit) rating. Only 141 people with No Credit were given loans.
 
 The most common employment status listed by loan borrowers was "Employed" at 93677. The least common employment status listed was "Retired" with a meagre 795 loans. Home Ownership rates between the Employed Categories and all other categories vary greatly. Home ownership is highest amongst the Employed and lowest among the Retired category.
 
@@ -53,9 +53,9 @@ For the borrowers who listed their income as $0, the count of people increased a
 ## Key Insights for Presentation
 
 
-> Most of the borrowers in this dataset have a C level credit rating. 
+> Most of the borrowers in this dataset have a C level credit rating. This is crucial information to assist stakeholder's pinpoint the credit garde of the most borrowers and perhaps commission further exploration into their loan repayment rates. 
 
-> The highest number of loans were taken in Jan while the least number of loans was listed in April. 
+> The highest number of loans were taken in Jan while the least number of loans was listed in April. Understanding borrowing patterns throghout the year can assist the credit facility prepare incentives in advance to attracts borrowers in low seasons.   
 
 > There is a weak but positive relationship between the DebtToIncomeRatio and BorrowerRate variables. As the BorrowerRate increases, DebtToIncomeRatio tends to increase also.
 
