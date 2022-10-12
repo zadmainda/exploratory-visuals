@@ -8,7 +8,7 @@
 
 > The Prosper Loan Data contains a wide range of information that not only describes the borrowers'  General details and loan specifics but also Estimated yield among many others. These details are spreaod over 81 separate columns for the 113,937 loans taken at the credit facility between Nov 2005 and Mar 2014. Even though most of these variables apply to all laons between 2005 and 2014, there are some that applicable to certain period only. For instance, The prosperScore and ProsperRating are assigned to loan listings that were created after July 2009. 
 
-> Before investigating the relationships between the dataset's variables, I selected a small subset of variables that I will use to answer my questions. After that, I proceeded with both visual and programmatic assessment of the dataset. I noted down some of the issues before I cleaned rectified them.
+> Before investigating the relationships between the dataset's variables, I selected a small subset of variables that I will use to answer my questions. After that, I proceeded with both visual and programmatic assessment of the dataset. I noted down some of the issues before I cleaned and rectified to fit my objectives.
 
 ##### Definition of the variables chosen for analysis
 1. ListingKey - Uiinque Key fo each loan
