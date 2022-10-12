@@ -8,6 +8,8 @@
 
 > The Prosper Loan Data contains a wide range of information that not only describes the borrowers'  General details and loan specifics but also Estimated yield among many others. These details are spreaod over 81 separate columns for the 113,937 loans taken at the credit facility between Nov 2005 and Mar 2014. Even though most of these variables apply to all laons between 2005 and 2014, there are some that applicable to certain period only. For instance, The prosperScore and ProsperRating are assigned to loan listings that were created after July 2009. 
 
+> Before investigating the relationships between the dataset's variables, I selected a small subset of variables that I will use to answer my questions. After that, I proceeded with both visual and programmatic assessment of the dataset. I noted down some of the issues before I cleaned rectified them.
+
 ##### Definition of the variables chosen for analysis
 1. ListingKey - Uiinque Key fo each loan
 2. ListingCreationDate - date the listing was created
@@ -24,8 +26,6 @@
 12. IncomeRange - borrower's income range at time of loan listing
 13. LoanOriginalAmount - The initial loan amount given to borrower
 
-
-> Before investigating the relationships between the dataset's variables, I selected a small subset of variables that I will use to answer my questions. After that, I proceeded with both visual and programmatic assessment of the dataset. I noted down some of the issues before I cleaned rectified them.
 ##### Quality Issues
 1. ListingCreationDate is a string
 2. Duplicate descriptor in the Employment status ('Employed' & 'Full-time' )
@@ -58,4 +58,3 @@ For the borrowers who listed their income as $0, the count of people increased a
 > The highest number of loans were taken in Jan while the least number of loans was listed in April. Understanding borrowing patterns throghout the year can assist the credit facility prepare incentives in advance to attracts borrowers in low seasons.   
 
 > There is a weak but positive relationship between the DebtToIncomeRatio and BorrowerRate variables. As the BorrowerRate increases, DebtToIncomeRatio tends to increase also.
-
