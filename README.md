@@ -3,10 +3,11 @@
 # (Investigating the Relationships between Variables in the Prosper Loan Data)
 ## by (Zadock Mainda)
 
-
 ## Dataset - Prosper Loan Data
 
 > The Prosper Loan Data contains a wide range of information that not only describes the borrowers'  General details and loan specifics but also Estimated yield among many others. These details are spread over 81 separate columns for the 113,937 loans taken at the credit facility between Nov 2005 and Mar 2014. Even though most of these variables apply to all loans between 2005 and 2014, there are some that applicable to certain period only. For instance, The prosperScore and ProsperRating are assigned to loan listings that were created after July 2009. 
+
+> Follow this link to download the Dataset CSV [here](https://s3.amazonaws.com/udacity-hosted-downloads/ud651/prosperLoanData.csv)
 
 > Before investigating the relationships between the dataset's variables, I selected a small subset of variables that I will use to answer my questions. After that, I proceeded with both visual and programmatic assessment of the dataset. I noted down some of the issues before I cleaned and rectified to fit my objectives.
 
@@ -26,12 +27,11 @@
 12. IncomeRange - borrower's income range at time of loan listing
 13. LoanOriginalAmount - The initial loan amount given to borrower
 
-##### Quality Issues
+##### Data Quality Issues
 1. ListingCreationDate is a string
 2. Duplicate descriptor in the Employment status ('Employed' & 'Full-time' )
 3. IncomeRange is a string instead of Categorical datatype
 4. CreditGrade is a String object
-
 
 ## Summary of Findings
 
